@@ -2231,7 +2231,7 @@ atob@^2.1.2:
 
 autoprefixer@^9.4.5:
   version "9.8.8"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.8.8.tgz#fd4bd4595385fa6f06599de749a4d5f7a474957a"
+  resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-9.8.8.tgz"
   integrity sha512-eM9d/swFopRt5gdJ7jrpCwgvEMIayITpojhkkSMRsFHYuH5bkSQ4p/9qTEHtmNudUZh22Tehu7I6CxAW0IXTKA==
   dependencies:
     browserslist "^4.12.0"
@@ -2463,15 +2463,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-bytes@3.0.0:
+bytes@3.0.0, bytes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
   integrity sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
-
-bytes@^3.0.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.2.tgz#8b0beeb98605adf1b128fa4386403c009e0221a5"
-  integrity sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==
 
 cache-base@^1.0.1:
   version "1.0.1"
@@ -2517,7 +2512,7 @@ callsites@^2.0.0:
 
 camelcase-css@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
+  resolved "https://registry.npmjs.org/camelcase-css/-/camelcase-css-2.0.1.tgz"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 camelcase@^5.0.0:
@@ -2530,12 +2525,7 @@ camelcase@^6.0.0:
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-6.3.0.tgz"
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
-caniuse-lite@^1.0.30001109:
-  version "1.0.30001311"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001311.tgz#682ef3f4e617f1a177ad943de59775ed3032e511"
-  integrity sha512-mleTFtFKfykEeW34EyfhGIFjGCqzhh38Y0LhdQ9aWF+HorZTtdgKV/1hEE0NlFkG2ubvisPV6l400tlbPys98A==
-
-caniuse-lite@^1.0.30001286:
+caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001286:
   version "1.0.30001295"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001295.tgz"
   integrity sha512-lSP16vcyC0FEy0R4ECc9duSPoKoZy+YkpGkue9G4D81OfPnliopaZrU10+qtPdT8PbGXad/PNx43TIQrOmJZSQ==
@@ -2855,12 +2845,12 @@ css-in-js-utils@^2.0.0:
 
 css-unit-converter@^1.1.1:
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/css-unit-converter/-/css-unit-converter-1.1.2.tgz#4c77f5a1954e6dbff60695ecb214e3270436ab21"
+  resolved "https://registry.npmjs.org/css-unit-converter/-/css-unit-converter-1.1.2.tgz"
   integrity sha512-IiJwMC8rdZE0+xiEZHeru6YoONC4rfPMqGm2W85jMIbkFvv5nFTwJVFHam2eFrN6txmoUYFAFXiv8ICVeTO0MA==
 
 cssesc@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
 csstype@^3.0.2:
@@ -3171,10 +3161,10 @@ expo-modules-core@0.6.3:
     compare-versions "^3.4.0"
     invariant "^2.2.4"
 
-expo-permissions@^13.1.0:
-  version "13.1.0"
-  resolved "https://registry.npmjs.org/expo-permissions/-/expo-permissions-13.1.0.tgz"
-  integrity sha512-f3ngERaoeAw8236xyvw4gS89Fxd4fU2soKXQn0JPXwiDGmIXO+lIJNH3psNvAebj4DfmyQtGW4AS1itG83GHaQ==
+expo-permissions@~13.1.0:
+  version "13.1.1"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-13.1.1.tgz#67414ea027d0e7db61f1bfa83a98ef6af512b59e"
+  integrity sha512-vo2sDlxDJE+THLhUO7G8kMHYnNJoMvYjurFNRvHjEvZAUvFmRgulejr8HlzCpb820brXNg+QWalZCtyA5oQkqg==
 
 expo-splash-screen@~0.14.1:
   version "0.14.1"
@@ -4781,7 +4771,7 @@ node-dir@^0.1.17:
 
 node-emoji@^1.8.1:
   version "1.11.0"
-  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.11.0.tgz#69a0150e6946e2f115e9d7ea4df7971e2628301c"
+  resolved "https://registry.npmjs.org/node-emoji/-/node-emoji-1.11.0.tgz"
   integrity sha512-wo2DpQkQp7Sjm2A0cq+sN7EHKO6Sl0ctXeBdFZrL9T9+UywORbufTcTZxom8YqpLQt/FqNMUkOpkZrJVYSKD3A==
   dependencies:
     lodash "^4.17.21"
@@ -4847,12 +4837,12 @@ normalize-path@^3.0.0:
 
 normalize-range@^0.1.2:
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz#2d10c06bdfd312ea9777695a4d28439456b75942"
+  resolved "https://registry.npmjs.org/normalize-range/-/normalize-range-0.1.2.tgz"
   integrity sha1-LRDAa9/TEuqXd2laTShDlFa3WUI=
 
 normalize.css@^8.0.1:
   version "8.0.1"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
+  resolved "https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz"
   integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
 npm-run-path@^2.0.0:
@@ -4869,7 +4859,7 @@ nullthrows@^1.1.1:
 
 num2fraction@^1.2.2:
   version "1.2.2"
-  resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
+  resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
 ob1@0.64.0:
@@ -5094,7 +5084,7 @@ path-to-regexp@^1.8.0:
 
 picocolors@^0.2.1:
   version "0.2.1"
-  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-0.2.1.tgz#570670f793646851d1ba135996962abad587859f"
+  resolved "https://registry.npmjs.org/picocolors/-/picocolors-0.2.1.tgz"
   integrity sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==
 
 picocolors@^1.0.0:
@@ -5156,7 +5146,7 @@ posix-character-classes@^0.1.0:
 
 postcss-functions@^3.0.0:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-functions/-/postcss-functions-3.0.0.tgz#0e94d01444700a481de20de4d55fb2640564250e"
+  resolved "https://registry.npmjs.org/postcss-functions/-/postcss-functions-3.0.0.tgz"
   integrity sha1-DpTQFERwCkgd4g3k1V+yZAVkJQ4=
   dependencies:
     glob "^7.1.2"
@@ -5166,7 +5156,7 @@ postcss-functions@^3.0.0:
 
 postcss-js@^2.0.0:
   version "2.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-2.0.3.tgz#a96f0f23ff3d08cec7dc5b11bf11c5f8077cdab9"
+  resolved "https://registry.npmjs.org/postcss-js/-/postcss-js-2.0.3.tgz"
   integrity sha512-zS59pAk3deu6dVHyrGqmC3oDXBdNdajk4k1RyxeVXCrcEDBUBHoIhE4QTsmhxgzXxsaqFDAkUZfmMa5f/N/79w==
   dependencies:
     camelcase-css "^2.0.1"
@@ -5174,7 +5164,7 @@ postcss-js@^2.0.0:
 
 postcss-nested@^4.1.1:
   version "4.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-4.2.3.tgz#c6f255b0a720549776d220d00c4b70cd244136f6"
+  resolved "https://registry.npmjs.org/postcss-nested/-/postcss-nested-4.2.3.tgz"
   integrity sha512-rOv0W1HquRCamWy2kFl3QazJMMe1ku6rCFoAAH+9AcxdbpDeBr6k968MLWuLjvjMcGEip01ak09hKOEgpK9hvw==
   dependencies:
     postcss "^7.0.32"
@@ -5182,7 +5172,7 @@ postcss-nested@^4.1.1:
 
 postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
   version "6.0.9"
-  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz#ee71c3b9ff63d9cd130838876c13a2ec1a992b2f"
+  resolved "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz"
   integrity sha512-UO3SgnZOVTwu4kyLR22UQ1xZh086RyNZppb7lLAKBFK8a32ttG5i87Y/P3+2bRSjZNyJ1B7hfFNo273tKe9YxQ==
   dependencies:
     cssesc "^3.0.0"
@@ -5190,17 +5180,17 @@ postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
 
 postcss-value-parser@^3.3.0:
   version "3.3.1"
-  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
+  resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
 postcss-value-parser@^4.1.0:
   version "4.2.0"
-  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
+  resolved "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
 postcss@^6.0.9:
   version "6.0.23"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-6.0.23.tgz"
   integrity sha512-soOk1h6J3VMTZtVeVpv15/Hpdl2cBLX3CAw4TAbkpTJiNPk9YP/zWcD1ND+xEtvyuuvKzbxliTOIyvkSeSJ6ag==
   dependencies:
     chalk "^2.4.1"
@@ -5209,7 +5199,7 @@ postcss@^6.0.9:
 
 postcss@^7.0.11, postcss@^7.0.18, postcss@^7.0.32:
   version "7.0.39"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.39.tgz"
   integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
   dependencies:
     picocolors "^0.2.1"
@@ -5227,7 +5217,7 @@ pretty-format@^26.5.2, pretty-format@^26.6.2:
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
-  resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
+  resolved "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
 process-nextick-args@~2.0.0:
@@ -5428,7 +5418,7 @@ react-native-size-matters@^0.3.1:
 
 react-native-tailwindcss@^1.1.11:
   version "1.1.11"
-  resolved "https://registry.yarnpkg.com/react-native-tailwindcss/-/react-native-tailwindcss-1.1.11.tgz#2308ee161fe190503498fd277b892f081434e5c8"
+  resolved "https://registry.npmjs.org/react-native-tailwindcss/-/react-native-tailwindcss-1.1.11.tgz"
   integrity sha512-NgqkDowWWfIl3FNLUXgxaJCt0auuKVVJHRdV68zDg/f6zTFjUYtbWhr/mcSZvwO4+JNtASlF3noPdrIZSW/smA==
   dependencies:
     tailwindcss "1.1.4"
@@ -5498,7 +5488,7 @@ react-native@0.64.3:
     whatwg-fetch "^3.0.0"
     ws "^6.1.4"
 
-react-navigation@^4.4.4:
+react-navigation@^4.2.0:
   version "4.4.4"
   resolved "https://registry.npmjs.org/react-navigation/-/react-navigation-4.4.4.tgz"
   integrity sha512-08Nzy1aKEd73496CsuzN49vLFmxPKYF5WpKGgGvkQ10clB79IRM2BtAfVl6NgPKuUM8FXq1wCsrjo/c5ftl5og==
@@ -5551,7 +5541,7 @@ rechoir@^0.6.2:
 
 reduce-css-calc@^2.1.6:
   version "2.1.8"
-  resolved "https://registry.yarnpkg.com/reduce-css-calc/-/reduce-css-calc-2.1.8.tgz#7ef8761a28d614980dc0c982f772c93f7a99de03"
+  resolved "https://registry.npmjs.org/reduce-css-calc/-/reduce-css-calc-2.1.8.tgz"
   integrity sha512-8liAVezDmUcH+tdzoEGrhfbGcP7nOV4NkGE3a74+qqvE7nt9i4sKLGBuZNOnpI4WiGksiNPklZxva80061QiPg==
   dependencies:
     css-unit-converter "^1.1.1"
@@ -6155,7 +6145,7 @@ supports-color@^7.0.0, supports-color@^7.1.0:
 
 tailwindcss@1.1.4:
   version "1.1.4"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.1.4.tgz#786bd5faaf485c9eddcb821dd55666c56baa814e"
+  resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-1.1.4.tgz"
   integrity sha512-p4AxVa4CKpX7IbNxImwNMGG9MHuLgratOaOE/iGriNd4AsRQRM2xMisoQ3KQHqShunrWuObga7rI7xbNsVoWGA==
   dependencies:
     autoprefixer "^9.4.5"
